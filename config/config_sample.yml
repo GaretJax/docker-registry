@@ -32,7 +32,7 @@ dev:
 # To specify another flavor, set the environment variable SETTINGS_FLAVOR
 # $ export SETTINGS_FLAVOR=prod
 prod:
-    storage: s3
+    storage: REPLACEME
     storage_path: "_env:STORAGE_PATH:/prod"
     # Enabling LRU cache for small files. This speeds up read/write on small files
     # when using a remote storage backend (like S3).
